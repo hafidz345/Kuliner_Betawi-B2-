@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kuliner Betawi</title>
+
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+  
+  </head>
+  <body>
+    <!--HEADER--> 
+    <header>
+      <nav>
+        <div class="nav-left">
+          <a href="#home">
+            <img src="asset/logo.png" alt="logo" class="nav-image" />
+          </a>
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li>
+              <a href="#menu">
+                <div class="nav-list">
+                  <div class="item">
+                    <i class="bx bx-food-menu"></i>
+                    <p>Our Menu</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <div class="nav-list">
+                  <div class="item">
+                    <i class="bx bxs-help-circle"></i>
+                    <p>Contact</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#form">
+                <div class="nav-list">
+                  <div class="item">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>My Order</p>
+                  </div>
+                  <div class="count"><p>0</p></div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-other"><i class='bx bx-menu'></i></div>
+      </nav>
+    </header>
+    <!--MAIN-->
+    <body>
+      <section class="main-banner">
+        <div class="banner-content">
+          <div class="header-text">
+            <div class="header-title">
+              Kuliner Betawi <br />
+              All You Can Eat
+            </div>
+            <div class="header-description">Menyediakan berbagai hidangan kuliner Betawi yang lezat dan autentik.</div>
+          </div>
+        </div>
+      </section>
+    </body> 
+    <!--BODY--> 
+    <div class="product-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>Makanan Popular</h2>
+        </div>
+        <div class="products">
+          <div class="product">
+            <div class="product-icon">
+              <img src="asset/soto_betawi.jpg" />
+            </div>
+            <div class="txt">
+                <p class="price">Rp 15.000</p>
+                <p class="contents">Soto Betawi adalah soto khas Betawi yang terdiri dari campuran daging dan jerohan sapi dan kuah santan kental.</p> 
+                <button class="cart">Tambahkan ke keranjang</button>   
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-icon">
+              <img src="asset/nasi_uduk.png">
+            </div>
+            <p class="price">Rp 12.000</p>
+            <p class="contents">Nasi uduk adalah hidangan yang dibuat dari nasi putih yang diaron dan dikukus dengan santan, serta dibumbui dengan pala, kayu manis, jahe, daun serai dan merica.</p>
+            <button class="cart">Tambahkan ke keranjang</button>
+          </div>
+          <div class="product">
+            <div class="product-icon">
+              <img src="asset/bir_pletok.png">
+            </div>
+            <div class="txt">
+                <p class="price">Rp 10.000</p>
+                <p class="contents">Bir pletok atau Bir Betawi adalah minuman khas masyarakat Betawi yang sudah populer sejak zaman kolonial.</p>
+                <button class="cart">Tambahkan ke keranjang</button>    
+            </div>
+          </div>
+          <div class="product">
+            <div class="product-icon">
+              <img src="asset/gado_gado.png">
+            </div>
+            <div class="txt">
+                <p class="price">Rp 17.000</p>
+                <p class="contents">Gado-gado adalah makanan khas Jakarta berisi sayur-sayuran yang direbus, irisan telur dan tahu, serta ditaburi bawang goreng.</p>
+                <button class="cart">Tambahkan ke keranjang</button>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--FORM-->
+    <div>
+        <div class="container_form">
+            <form>
+                <div class="row">
+                    <h3>Order Here!!!</h3>
+                      <label>Nama Lengkap</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Isikan Dengan Nama Lengkap Anda">
+                      <label>Email</label>
+                      <input type="text" id="email" name="email" placeholder="Isikandenganemailanda@gmail.com">
+                      <label>Alamat</label>
+                      <input type="text" id="adr" name="address" placeholder="Isikan Dengan Alamat Lengkap Anda">
+                      <label>Kota</label>
+                      <input type="text" id="city" name="city" placeholder="Isikan Dengan Kota Domisili"></div>
+                    <label>
+                      <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                    </label>
+                <input type="submit" value="Continue to checkout" class="btn_form">
+            </form>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer>
+    <div class="footer">
+      <div class="footer-logo">
+        <img src="asset/logo.png" alt="Kedai Betawi">
+          <div class="isifooter">
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Tiktok</a></li>
+            </ul>
+          </div>
+        <div class="footerBottom">Copyright 2023 @ Kuliner Betawi</div>
+      </div> 
+    </div>
+
+    </footer>
+  </body>
+</html>

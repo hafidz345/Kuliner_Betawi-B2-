@@ -1,0 +1,65 @@
+@keyframes fadeup {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+  
+@media (max-width: 670px) {
+  .main-banner {
+    height: 206px;
+    width: 100%;
+    background-image: url(asset/hero-slide-1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .header-text {
+    padding-top: 70px;
+  }
+  .header-title {
+    font-size: 18px;
+    font-weight: 0;
+    padding-top: 32px;
+  }
+ 
+  .header-description {
+    padding-top: 8px;
+    font-weight: 150;
+    font-size: 15px;
+    line-height: 1.5;        
+  }
+  .product {
+    width: 100%;
+  }
+
+  /*--------------*/
+  .nav-other{
+    display: block;
+  }
+
+  .nav-other i{
+    font-size: 35px;
+    color: #fff;
+  }
+
+  .nav-other i:hover{
+    color: rgb(250, 167, 13);
+  }
+
+  .nav-right{
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+}
+
